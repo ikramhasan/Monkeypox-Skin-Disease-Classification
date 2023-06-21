@@ -9,12 +9,12 @@ import tensorflow as tf
 st.set_page_config(
     page_title="Monkeypox Classification",
     page_icon="🧊",
-    layout="wide",
+    layout="centered",
     initial_sidebar_state="expanded",
 )
 
 st.title('Thesis')
-st.header('Monkeypox skin disease classification based on machine learning models: A viability study and analysis')
+st.subheader('Monkeypox skin disease classification based on machine learning models: A viability study and analysis')
 st.divider()
 
 st.sidebar.title("Submitted by")
